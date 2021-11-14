@@ -1,12 +1,12 @@
 
 
-pip install streamlit
-pip install networkx
-pip install mysql-connector-python
+!pip install streamlit
+!pip install networkx
+!pip install mysql-connector-python
 
-pip install pymysql
+!pip install pymysql
 
-pip install mysqlclient
+!pip install mysqlclient
 
 import streamlit as st 
 import mysql.connector
