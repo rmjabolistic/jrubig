@@ -1,5 +1,16 @@
+python3.7 -m venv ~/.streamlit_ve
+source ~/.streamlit_ve/bin/activate
+pip install -U pip
+pip install streamlit
+pip install networkx
+pip install mysql-connector-python
+
+pip install pymysql
+
+pip install mysqlclient
+
 import streamlit as st 
-import mysqli.connector
+import mysql.connector
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from fbprophet.plot import plot_components_plotly
