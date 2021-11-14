@@ -1,5 +1,5 @@
 import streamlit as st 
-import mysql.connector
+import mysqli.connector
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from fbprophet.plot import plot_components_plotly
