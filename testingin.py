@@ -1,5 +1,5 @@
 
-pip install -U pip
+
 pip install streamlit
 pip install networkx
 pip install mysql-connector-python
