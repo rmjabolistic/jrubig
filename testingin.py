@@ -4,11 +4,11 @@ import mysql.connector
 from mysql.connector import errorcode
 
 config = {
-‘user’: ‘username’,
-‘password’:‘password’,
-‘host’: ‘localhost’,
-‘database’:‘database’,
-‘raise_on_warnings’: True
+user: 'sql6450411',
+password:'HdqLbnNupu',
+host: 'sql6.freesqldatabase.com',
+database:'sql6450411',
+raise_on_warnings: True
 }
 
 class mySQL:
