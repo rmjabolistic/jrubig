@@ -1,4 +1,24 @@
 
+import streamlit as st
+import mysql.connector
+from mysql.connector import errorcode
+
+config = {
+‘user’: ‘username’,
+‘password’:‘password’,
+‘host’: ‘localhost’,
+‘database’:‘database’,
+‘raise_on_warnings’: True
+}
+
+class mySQL:
+def init(self, st):
+self.st = st
+try:
+self.cnx = mysql.connector.connect(**config)
+self.cursor = self.cnx.cursor()
+
+
 
 import streamlit as st 
 import mysql.connector
