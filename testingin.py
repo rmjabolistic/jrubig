@@ -1,27 +1,8 @@
 
-import streamlit as st
-import mysqlconnector
-from mysql.connector import errorcode
-
-config = {
-user: 'sql6450411',
-password:'HdqLbnNupu',
-host: 'sql6.freesqldatabase.com',
-database:'sql6450411',
-raise_on_warnings: True
-}
-
-class mySQL:
-def init(self, st):
-self.st = st
-try:
-self.cnx = mysql.connector.connect(**config)
-self.cursor = self.cnx.cursor()
-
 
 
 import streamlit as st 
-import mysql.connector
+from mysql import connector
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from fbprophet.plot import plot_components_plotly
