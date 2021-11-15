@@ -4,4 +4,4 @@ BeautifulSoup-dev
 pandas-dev
 geopy-dev
 numpy-dev
-prophet-dev
+fbprophet-dev
