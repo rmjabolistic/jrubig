@@ -2,7 +2,7 @@
 
 
 import streamlit as st 
-from mysql import connector
+
 from fbprophet import Prophet
 from fbprophet.plot import plot_plotly
 from fbprophet.plot import plot_components_plotly
