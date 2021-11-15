@@ -1,6 +1,6 @@
 
 import streamlit as st
-import mysql.connector
+import mysqlconnector
 from mysql.connector import errorcode
 
 config = {
