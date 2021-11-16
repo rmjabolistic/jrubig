@@ -1,7 +1,0 @@
-# requirements.txt
-mysql-connector-python==5.6
-numpy==1.18.1
-pandas==1.0.1
-plotly==4.1.0
-fbprophet==0.7.1
-pystan==2.19.1.1
